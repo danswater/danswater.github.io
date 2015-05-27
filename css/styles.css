@@ -1922,7 +1922,7 @@ th.visible-print,td.visible-print{display:table-cell !important}
 @keyframes videohalo{0%{-webkit-box-shadow:0 0 10px 5px rgba(242,194,25,0);box-shadow:0 0 10px 5px rgba(242,194,25,0);border-color:white}
 100%{-webkit-box-shadow:0 0 10px 5px #f2c219;box-shadow:0 0 10px 5px #f2c219;border-color:#f2c219}
 }
-div.intro{min-height:460px;background:#5a6060 url(../themes/website/assets/images/october.jpg) no-repeat center bottom;position:relative}
+div.intro{min-height:460px;background:#5a6060 url(../images/october.jpg) no-repeat center bottom;position:relative}
 div.intro .container{height:100%}
 div.intro .message{margin-top:50px;background:#00A273;padding:48px;color:#ffffff}
 div.intro .message h2{margin-top:0;margin-bottom:30px;font-size:18px;font-weight:700;text-transform:uppercase;letter-spacing:1px;line-height:180%}
@@ -1941,7 +1941,7 @@ div.intro .container{position:static}
 div.intro .holder{position:static}
 div.intro .holder .video-link{position:absolute;left:50%;top:auto;right:auto;bottom:0;margin-bottom:-37px}
 }
-div.twitter-love{background:#5a6060 url(../themes/website/assets/images/october-bottom.jpg) no-repeat center top}
+div.twitter-love{background:#5a6060 url(../images/october-bottom.jpg) no-repeat center top}
 div.twitter-love .content{background:rgba(51,73,94,0.9);padding:20px 0;text-align:center}
 div.twitter-love .content blockquote,div.twitter-love .content p{display:inline-block;padding:0;border:none;margin:0}
 div.twitter-love .content blockquote{font-family:Georgia,Times New Roman,serif;font-style:italic;font-size:20px;color:#ecf0f1;margin-right:20px;margin-bottom:20px;margin-top:20px}
@@ -1972,18 +1972,18 @@ div.join div.beta:before{left:15px}
 }
 div.perfect{padding:80px 0}
 div.perfect ul{font-size:0;padding:0;margin:0;list-style:none}
-div.perfect ul li{display:inline-block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:292px;margin-left:-50px;padding:20px 20px 20px 80px;height:300px;vertical-align:top;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;position:relative}
+div.perfect ul li{display:inline-block;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;width:292px;margin-left:-50px;padding:20px 20px 20px 80px;height:300px;vertical-align:top;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:72px;position:relative}
 div.perfect ul li:before{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;content:"\f03e";color:white;font-size:40px;margin-bottom:15px;display:inline-block}
 div.perfect ul li h4{font-size:17px;font-weight:600;color:white;margin:0}
 div.perfect ul li h4 strong{color:#ffcd1c}
 div.perfect ul li p.subheader{font-size:14px;font-weight:400;color:#ecf0f1}
 div.perfect ul li p.description{font-size:16px;font-weight:400;color:white;line-height:180%;margin-top:20px}
-div.perfect ul li.designers{background-color:#25ba9b;margin-left:0;padding-left:20px;z-index:100}
-div.perfect ul li.developers{background-color:#1f9e84;z-index:99;width:332px}
+div.perfect ul li.designers{background-color:#BA9325;margin-left:0;padding-left:20px;z-index:100}
+div.perfect ul li.developers{background-color:#9E811F;z-index:99;width:332px}
 div.perfect ul li.developers:before{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;content:"\f085"}
-div.perfect ul li.agencies{background-color:#17836d;z-index:98;width:332px}
+div.perfect ul li.agencies{background-color:#836717;z-index:98;width:332px}
 div.perfect ul li.agencies:before{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;content:"\f087"}
-div.perfect ul li.clients{background-color:#0c6e5a;z-index:97;width:332px}
+div.perfect ul li.clients{background-color:#6E490C;z-index:97;width:332px}
 div.perfect ul li.clients:before{font-family:FontAwesome;font-weight:normal;font-style:normal;text-decoration:inherit;-webkit-font-smoothing:antialiased;*margin-right:.3em;content:"\f004"}
 @media (max-width:1199px){div.perfect ul li{width:235px;margin-left:-30px;padding:20px 20px 20px 50px;height:360px}
 div.perfect ul li.designers{margin-left:0}
@@ -2683,7 +2683,7 @@ html.full-height body{margin-bottom:0;height:100%}
 @keyframes blinkingicon{0%{color:#d9dede}
 100%{color:#ffffff}
 }
- div.page-header{margin-top:0;margin-bottom:0;padding:50px 0;border-top:none;border-left:0;border-right:0;border-bottom:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background:#5a6060 url(../themes/website/assets/images/october-top.jpg) no-repeat center bottom;-webkit-box-shadow:0 2px 3px rgba(0,0,0,0.2);box-shadow:0 2px 3px rgba(0,0,0,0.2)}
+ div.page-header{margin-top:0;margin-bottom:0;padding:50px 0;border-top:none;border-left:0;border-right:0;border-bottom:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background:#5a6060 url(../images/october-top.jpg) no-repeat center bottom;-webkit-box-shadow:0 2px 3px rgba(0,0,0,0.2);box-shadow:0 2px 3px rgba(0,0,0,0.2)}
 div.page-header .navbar-header{margin-left:0!important}
 div.page-header button{border:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}
 div.page-header button .icon-bar{background-color:white!important}
