@@ -13,6 +13,27 @@
     -->
   <link rel="manifest" href="/manifest.json" />
 
+  <script>
+    // Apply the theme before first paint. Keep in sync with src/utils/theme.ts.
+    (function () {
+      var theme = 'light';
+      try {
+        var stored = window.localStorage.getItem('theme');
+        if (stored === 'light' || stored === 'dark') {
+          theme = stored;
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          theme = 'dark';
+        }
+      } catch (e) {
+        try {
+          if (window.matchMedia('(prefers-color-scheme: dark)').matches) theme = 'dark';
+        } catch (e2) {}
+      }
+      document.documentElement.setAttribute('data-theme', theme);
+      document.documentElement.style.colorScheme = theme;
+    })();
+  </script>
+
   <title>Francis Lamayo | Fullstack Developer</title>
   <script>
     (function() {
@@ -22,8 +43,8 @@
       }
     })();
   </script>
-  <script type="module" crossorigin src="/assets/index-zdqzOAuA.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-DI-J7UGe.css">
+  <script type="module" crossorigin src="/assets/index-ByYfEWjZ.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DSh4U9ds.css">
 </head>
   <body>
     <div id="root"></div>
